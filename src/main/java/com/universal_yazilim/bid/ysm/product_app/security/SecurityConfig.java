@@ -30,7 +30,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
     /*
         Uygulamanın kullanıcı ad ve parola bilgilerinin
         belirlenen bilgiler olması için
-        nu metot "override" edilir.
+        bu metot "override" edilir.
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception

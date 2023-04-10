@@ -20,7 +20,7 @@ public class ProductService extends AbstractProductService
         {
             return productRepository.findByPriceGreaterThanEqual(price);
         }
-        catch (RuntimeException e)
+        catch (Exception e)
         {
             Util.showGeneralExceptionInfo(e);
             return null;
@@ -34,7 +34,7 @@ public class ProductService extends AbstractProductService
         {
             return productRepository.findByPriceLessThan(price);
         }
-        catch (RuntimeException e)
+        catch (Exception e)
         {
             Util.showGeneralExceptionInfo(e);
             return null;

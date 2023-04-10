@@ -1,0 +1,13 @@
+{
+  "name": "universal-haluk-product",
+
+  "buildpacks":
+          [
+            {
+              "url":"heroku/gradle"
+            }
+
+          ]
+
+
+}
